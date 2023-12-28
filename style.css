@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
-@media {
-  scroll-behavior:smooth;
-}
-
 
 * {
   font-family: 'VT323';
@@ -139,7 +135,7 @@ footer {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
-  height 400px;
+  height: 400px;
   background-color: black;
   color: white;
 }
@@ -158,9 +154,6 @@ footer {
   display: grid;
 }
 
-input {
-  
-}
 
 .btn {
   display: flex-grid;
@@ -219,7 +212,7 @@ input {
   font-size:16px;
   margin-top: 5px;
   margin-bottom: 5px;
-  positon: absolute;
+  position: absolute;
   float: right;
 
 }
