@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
-@media screen  {
-  scroll-behavior:smooth;
-}
-
 
 * {
   font-family: 'VT323';
