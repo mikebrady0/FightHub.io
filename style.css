@@ -214,9 +214,3 @@ footer {
   float: right;
 
 }
-
-@media screen and only (max-width:500px ) {
-  #event-title {
-    font-size: 14px;
-  }
-}
