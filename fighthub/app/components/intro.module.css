@@ -1,0 +1,28 @@
+.rosterIntro {
+    padding-top: 1em;
+    text-align: center;
+    background-color: lightGrey;
+    color: black;
+  
+  }
+
+  .rosterTitle {
+    font-size: 30px;
+    padding-top: 5rem;
+    margin-bottom: 0em;
+    text-align: center;
+    background-color: lightGrey;
+    color: black;
+   
+  }
+
+  .rosterDescription {
+    font-size: 18px;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 0px;
+    background-color: lightGrey;
+    color: black;
+  
+  }

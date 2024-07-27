@@ -1,0 +1,35 @@
+
+.bottomBar {
+    margin: 0px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .eventTitle h6 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .events {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .event {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .event:hover {
+    text-decoration: underline;
+  }
+  
