@@ -1,4 +1,4 @@
-import '../components/globals.css';
+import '../app/components/globals.css';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 // Import the VT323 font from @next/font/google
 import { VT323 as VT323Font } from '@next/font/google';

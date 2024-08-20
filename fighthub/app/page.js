@@ -1,6 +1,6 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer'; 
-import Intro from '../components/Intro';
+import Header from '../app/components/Header';
+import Footer from '../app/components/Footer'; 
+import Intro from '../app/components/Intro';
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
         width="100%"
         height="300px"
         src="https://www.youtube.com/embed/rvDnn1kCYXY?si=xjR4xjrUKLaV8fUX" 
-        title="YouTube video player" 
+        title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerPolicy="strict-origin-when-cross-origin" 
