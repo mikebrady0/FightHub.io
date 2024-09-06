@@ -1,9 +1,9 @@
 import '../app/components/globals.css';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 // Import the VT323 font from @next/font/google
-import { VT323 as VT323Font } from '@next/font/google';
+import { VT323 } from 'next/font/google';
 
-const vt323 = VT323Font({ subsets: ['latin'], weight: ['400'] }); // You can specify the subset as per your requirements
+const vt323 = VT323({ subsets: ['latin'], weight: '400',variable: '--font-vt323'}); // You can specify the subset as per your requirements
 
 export const metadata = {
   title: 'FightHub.io',
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head></head>
-      <body className={vt323.className}>{children}</body>
+      <body className={vt323.variable}>{children}</body>
       
     </html>
   );
